@@ -30,7 +30,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -57,7 +57,7 @@ Other parameters are passed through a pointer to a apiDownloadLogFileRequest str
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **filePath** | **string** | Log file path | 
+ **filePath** | **string** | Log file path |
 
 ### Return type
 
@@ -92,7 +92,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -115,7 +115,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance Name | 
+**instanceName** | **string** | Instance Name |
 
 ### Other Parameters
 
@@ -125,7 +125,7 @@ Other parameters are passed through a pointer to a apiDownloadLogFileFromInstanc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **filePath** | **string** | Log file path | 
+ **filePath** | **string** | Log file path |
 
 ### Return type
 
@@ -160,7 +160,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -219,7 +219,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -278,7 +278,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -302,7 +302,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance Name | 
+**instanceName** | **string** | Instance Name |
 
 ### Other Parameters
 
@@ -348,7 +348,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -372,7 +372,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**loggerName** | **string** | Logger name | 
+**loggerName** | **string** | Logger name |
 
 ### Other Parameters
 
@@ -418,7 +418,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -479,7 +479,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -504,7 +504,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**loggerName** | **string** | Logger name | 
+**loggerName** | **string** | Logger name |
 
 ### Other Parameters
 
@@ -514,7 +514,7 @@ Other parameters are passed through a pointer to a apiSetLoggerLevelRequest stru
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **level** | **string** | Logger level | 
+ **level** | **string** | Logger level |
 
 ### Return type
 

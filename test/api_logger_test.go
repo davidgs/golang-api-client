@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_LoggerApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService DownloadLogFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.LoggerApi.DownloadLogFile(context.Background()).Execute()
 
@@ -35,7 +36,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService DownloadLogFileFromInstance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var instanceName string
 
@@ -48,7 +49,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService GetLocalLogFiles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.LoggerApi.GetLocalLogFiles(context.Background()).Execute()
 
@@ -60,7 +61,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService GetLogFilesFromAllInstances", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.LoggerApi.GetLogFilesFromAllInstances(context.Background()).Execute()
 
@@ -72,7 +73,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService GetLogFilesFromInstance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var instanceName string
 
@@ -86,7 +87,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService GetLogger", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var loggerName string
 
@@ -100,7 +101,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService GetLoggers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.LoggerApi.GetLoggers(context.Background()).Execute()
 
@@ -112,7 +113,7 @@ func Test_openapi_LoggerApiService(t *testing.T) {
 
 	t.Run("Test LoggerApiService SetLoggerLevel", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var loggerName string
 

@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/davidgs/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_SchemaApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService AddSchema1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SchemaApi.AddSchema1(context.Background()).Execute()
 
@@ -35,7 +36,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService DeleteSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var schemaName string
 
@@ -48,7 +49,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService GetSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var schemaName string
 
@@ -61,7 +62,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService GetTableSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -74,7 +75,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService ListSchemaNames", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.SchemaApi.ListSchemaNames(context.Background()).Execute()
 
@@ -86,7 +87,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService UpdateSchema1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var schemaName string
 
@@ -99,7 +100,7 @@ func Test_openapi_SchemaApiService(t *testing.T) {
 
 	t.Run("Test SchemaApiService ValidateSchema1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SchemaApi.ValidateSchema1(context.Background()).Execute()
 

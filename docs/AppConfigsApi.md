@@ -4,7 +4,7 @@ All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetAppConfigs**](AppConfigsApi.md#GetAppConfigs) | **Get** /appconfigs | 
+[**GetAppConfigs**](AppConfigsApi.md#GetAppConfigs) | **Get** /appconfigs |
 
 
 
@@ -23,7 +23,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {

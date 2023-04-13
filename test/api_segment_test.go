@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_SegmentApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService DeleteAllSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -38,7 +39,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService DeleteSegment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -53,7 +54,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService DeleteSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -67,7 +68,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService DownloadSegment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -81,7 +82,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService EndReplaceSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -94,7 +95,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetReloadJobStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId string
 
@@ -108,7 +109,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -123,7 +124,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentMetadataDeprecated1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -138,7 +139,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentMetadataDeprecated2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -153,7 +154,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentTiers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -167,7 +168,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentToCrcMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -181,7 +182,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegmentToCrcMapDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -195,7 +196,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -209,7 +210,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetSelectedSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -223,7 +224,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetServerMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -237,7 +238,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetServerToSegmentsMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -251,7 +252,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetServerToSegmentsMapDeprecated1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -265,7 +266,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetServerToSegmentsMapDeprecated2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -279,7 +280,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetTableTiers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -292,7 +293,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService GetZookeeperMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -306,7 +307,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ListSegmentLineage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -319,7 +320,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadAllSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -333,7 +334,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadAllSegmentsDeprecated1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -347,7 +348,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadAllSegmentsDeprecated2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -361,7 +362,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadSegment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -376,7 +377,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadSegmentDeprecated1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -391,7 +392,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ReloadSegmentDeprecated2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -406,7 +407,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ResetSegment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableNameWithType string
 		var segmentName string
@@ -421,7 +422,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService ResetSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableNameWithType string
 
@@ -435,7 +436,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService RevertReplaceSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -448,7 +449,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService StartReplaceSegments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -461,7 +462,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService UpdateTimeIntervalZK", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableNameWithType string
 
@@ -474,7 +475,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService UploadSegmentAsMultiPart", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SegmentApi.UploadSegmentAsMultiPart(context.Background()).Execute()
 
@@ -485,7 +486,7 @@ func Test_openapi_SegmentApiService(t *testing.T) {
 
 	t.Run("Test SegmentApiService UploadSegmentAsMultiPartV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.SegmentApi.UploadSegmentAsMultiPartV2(context.Background()).Execute()
 

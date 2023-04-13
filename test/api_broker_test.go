@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_BrokerApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetBrokersForTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -38,7 +39,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetBrokersForTableV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -52,7 +53,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetBrokersForTenant", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -66,7 +67,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetBrokersForTenantV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -80,7 +81,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetTablesToBrokersMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.GetTablesToBrokersMapping(context.Background()).Execute()
 
@@ -92,7 +93,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetTablesToBrokersMappingV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.GetTablesToBrokersMappingV2(context.Background()).Execute()
 
@@ -104,7 +105,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetTenantsToBrokersMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.GetTenantsToBrokersMapping(context.Background()).Execute()
 
@@ -116,7 +117,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService GetTenantsToBrokersMappingV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.GetTenantsToBrokersMappingV2(context.Background()).Execute()
 
@@ -128,7 +129,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService ListBrokersMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.ListBrokersMapping(context.Background()).Execute()
 
@@ -140,7 +141,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService ListBrokersMappingV2", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BrokerApi.ListBrokersMappingV2(context.Background()).Execute()
 
@@ -152,7 +153,7 @@ func Test_openapi_BrokerApiService(t *testing.T) {
 
 	t.Run("Test BrokerApiService ToggleQueryRateLimiting", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var instanceName string
 

@@ -25,7 +25,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -57,10 +57,10 @@ Other parameters are passed through a pointer to a apiEstimateHeapUsageRequest s
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **cardinality** | **int64** | cardinality | 
+ **cardinality** | **int64** | cardinality |
  **primaryKeySize** | **int32** | primaryKeySize | [default to -1]
  **numPartitions** | **int32** | numPartitions | [default to -1]
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 

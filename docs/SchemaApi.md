@@ -31,7 +31,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -62,7 +62,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **override** | **bool** | Whether to override the schema if the schema exists | [default to true]
  **force** | **bool** | Whether to force overriding the schema if the schema exists | [default to false]
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -99,7 +99,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -121,7 +121,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**schemaName** | **string** | Schema name | 
+**schemaName** | **string** | Schema name |
 
 ### Other Parameters
 
@@ -167,7 +167,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -189,7 +189,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**schemaName** | **string** | Schema name | 
+**schemaName** | **string** | Schema name |
 
 ### Other Parameters
 
@@ -235,7 +235,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -257,7 +257,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name (without type) | 
+**tableName** | **string** | Table name (without type) |
 
 ### Other Parameters
 
@@ -303,7 +303,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -364,7 +364,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -388,7 +388,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**schemaName** | **string** | Name of the schema | 
+**schemaName** | **string** | Name of the schema |
 
 ### Other Parameters
 
@@ -399,7 +399,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
  **reload** | **bool** | Whether to reload the table if the new schema is backward compatible | [default to false]
- **body** | [**FormDataMultiPart**](FormDataMultiPart.md) |  | 
+ **body** | [**FormDataMultiPart**](FormDataMultiPart.md) |  |
 
 ### Return type
 
@@ -436,7 +436,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -463,7 +463,7 @@ Other parameters are passed through a pointer to a apiValidateSchema1Request str
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 

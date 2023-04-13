@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/davidgs/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClusterApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService DeleteClusterConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var configName string
 
@@ -37,7 +38,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService GetClusterInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ClusterApi.GetClusterInfo(context.Background()).Execute()
 
@@ -48,7 +49,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService GetSegmentDebugInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 		var segmentName string
@@ -62,7 +63,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService GetTableDebugInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -75,7 +76,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService ListClusterConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ClusterApi.ListClusterConfigs(context.Background()).Execute()
 
@@ -86,7 +87,7 @@ func Test_openapi_ClusterApiService(t *testing.T) {
 
 	t.Run("Test ClusterApiService UpdateClusterConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ClusterApi.UpdateClusterConfig(context.Background()).Execute()
 

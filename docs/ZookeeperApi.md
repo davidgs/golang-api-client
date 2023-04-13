@@ -30,7 +30,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -57,7 +57,7 @@ Other parameters are passed through a pointer to a apiDeleteRequest struct via t
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 
@@ -92,7 +92,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -119,7 +119,7 @@ Other parameters are passed through a pointer to a apiGetChildrenRequest struct 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 
@@ -154,7 +154,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -181,7 +181,7 @@ Other parameters are passed through a pointer to a apiGetDataRequest struct via 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 
@@ -216,7 +216,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -243,7 +243,7 @@ Other parameters are passed through a pointer to a apiLsRequest struct via the b
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 
@@ -278,7 +278,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -305,7 +305,7 @@ Other parameters are passed through a pointer to a apiLslRequest struct via the 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 
@@ -340,7 +340,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -371,11 +371,11 @@ Other parameters are passed through a pointer to a apiPutChildrenRequest struct 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper path of parent, must start with / | 
- **data** | **string** | Content | 
+ **path** | **string** | Zookeeper path of parent, must start with / |
+ **data** | **string** | Content |
  **expectedVersion** | **int32** | expectedVersion | [default to -1]
  **accessOption** | **int32** | accessOption | [default to 1]
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -410,7 +410,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -441,11 +441,11 @@ Other parameters are passed through a pointer to a apiPutDataRequest struct via 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
- **data** | **string** | Content | 
+ **path** | **string** | Zookeeper Path, must start with / |
+ **data** | **string** | Content |
  **expectedVersion** | **int32** | expectedVersion | [default to -1]
  **accessOption** | **int32** | accessOption | [default to 1]
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -482,7 +482,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -509,7 +509,7 @@ Other parameters are passed through a pointer to a apiStatRequest struct via the
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **path** | **string** | Zookeeper Path, must start with / | 
+ **path** | **string** | Zookeeper Path, must start with / |
 
 ### Return type
 

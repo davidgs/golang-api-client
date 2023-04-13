@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_UserApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_UserApiService(t *testing.T) {
 
 	t.Run("Test UserApiService AddUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.UserApi.AddUser(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_UserApiService(t *testing.T) {
 
 	t.Run("Test UserApiService DeleteUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var username string
 
@@ -50,7 +51,7 @@ func Test_openapi_UserApiService(t *testing.T) {
 
 	t.Run("Test UserApiService GetUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var username string
 
@@ -64,7 +65,7 @@ func Test_openapi_UserApiService(t *testing.T) {
 
 	t.Run("Test UserApiService ListUers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.UserApi.ListUers(context.Background()).Execute()
 
@@ -76,7 +77,7 @@ func Test_openapi_UserApiService(t *testing.T) {
 
 	t.Run("Test UserApiService UpdateUserConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var username string
 

@@ -24,7 +24,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -92,7 +92,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -117,7 +117,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -127,7 +127,7 @@ Other parameters are passed through a pointer to a apiTuneTable1Request struct v
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 

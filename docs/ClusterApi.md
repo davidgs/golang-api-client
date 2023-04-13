@@ -28,7 +28,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -50,7 +50,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**configName** | **string** | Name of the config to delete | 
+**configName** | **string** | Name of the config to delete |
 
 ### Other Parameters
 
@@ -96,7 +96,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -155,7 +155,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -178,8 +178,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table (with type) | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table (with type) |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -226,7 +226,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -250,7 +250,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -260,7 +260,7 @@ Other parameters are passed through a pointer to a apiGetTableDebugInfoRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
  **verbosity** | **int32** | Verbosity of debug information | [default to 0]
 
 ### Return type
@@ -298,7 +298,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -355,7 +355,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -382,7 +382,7 @@ Other parameters are passed through a pointer to a apiUpdateClusterConfigRequest
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 

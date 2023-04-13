@@ -24,7 +24,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -49,7 +49,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -59,9 +59,9 @@ Other parameters are passed through a pointer to a apiEndDataIngestRequestReques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **tableType** | **string** | OFFLINE|REALTIME | 
- **taskType** | **string** | Task type | 
- **checkpointEntryKey** | **string** | Key of checkpoint entry | 
+ **tableType** | **string** | OFFLINE|REALTIME |
+ **taskType** | **string** | Task type |
+ **checkpointEntryKey** | **string** | Key of checkpoint entry |
 
 ### Return type
 
@@ -96,7 +96,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -121,7 +121,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -131,9 +131,9 @@ Other parameters are passed through a pointer to a apiStartDataIngestRequestRequ
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **tableType** | **string** | OFFLINE|REALTIME | 
- **taskType** | **string** | Task type | 
- **body** | **string** |  | 
+ **tableType** | **string** | OFFLINE|REALTIME |
+ **taskType** | **string** | Task type |
+ **body** | **string** |  |
 
 ### Return type
 

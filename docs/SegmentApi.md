@@ -58,7 +58,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -84,7 +84,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -94,8 +94,8 @@ Other parameters are passed through a pointer to a apiDeleteAllSegmentsRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention |
 
 ### Return type
 
@@ -132,7 +132,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -158,8 +158,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -170,7 +170,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention | 
+ **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention |
 
 ### Return type
 
@@ -207,7 +207,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -233,7 +233,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -243,8 +243,8 @@ Other parameters are passed through a pointer to a apiDeleteSegmentsRequest stru
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention | 
- **body** | **[]string** |  | 
+ **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the table config, then to cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention |
+ **body** | **[]string** |  |
 
 ### Return type
 
@@ -281,7 +281,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -304,8 +304,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -352,7 +352,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -376,7 +376,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -386,8 +386,8 @@ Other parameters are passed through a pointer to a apiEndReplaceSegmentsRequest 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **segmentLineageEntryId** | **string** | Segment lineage entry id returned by startReplaceSegments API | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **segmentLineageEntryId** | **string** | Segment lineage entry id returned by startReplaceSegments API |
 
 ### Return type
 
@@ -424,7 +424,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -448,7 +448,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**jobId** | **string** | Reload job id | 
+**jobId** | **string** | Reload job id |
 
 ### Other Parameters
 
@@ -494,7 +494,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -520,8 +520,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -532,7 +532,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **columns** | **[]string** | Columns name | 
+ **columns** | **[]string** | Columns name |
 
 ### Return type
 
@@ -569,7 +569,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -595,8 +595,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -607,7 +607,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -644,7 +644,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -671,8 +671,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -683,8 +683,8 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **state** | **string** | MUST be null | 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **state** | **string** | MUST be null |
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -721,7 +721,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -745,8 +745,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -757,7 +757,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -794,7 +794,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -818,7 +818,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -864,7 +864,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -888,7 +888,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -934,7 +934,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -960,7 +960,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -970,8 +970,8 @@ Other parameters are passed through a pointer to a apiGetSegmentsRequest struct 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **excludeReplacedSegments** | **string** | Whether to exclude replaced segments in the response, which have been replaced specified in the segment lineage entries and cannot be queried from the table | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **excludeReplacedSegments** | **string** | Whether to exclude replaced segments in the response, which have been replaced specified in the segment lineage entries and cannot be queried from the table |
 
 ### Return type
 
@@ -1008,7 +1008,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1036,7 +1036,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1046,9 +1046,9 @@ Other parameters are passed through a pointer to a apiGetSelectedSegmentsRequest
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **startTimestamp** | **string** | Start timestamp (inclusive) | 
- **endTimestamp** | **string** | End timestamp (exclusive) | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **startTimestamp** | **string** | Start timestamp (inclusive) |
+ **endTimestamp** | **string** | End timestamp (exclusive) |
  **excludeOverlapping** | **bool** | Whether to exclude the segments overlapping with the timestamps, false by default | [default to false]
 
 ### Return type
@@ -1086,7 +1086,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1112,7 +1112,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1122,8 +1122,8 @@ Other parameters are passed through a pointer to a apiGetServerMetadataRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **columns** | **[]string** | Columns name | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **columns** | **[]string** | Columns name |
 
 ### Return type
 
@@ -1160,7 +1160,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1185,7 +1185,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1195,7 +1195,7 @@ Other parameters are passed through a pointer to a apiGetServerToSegmentsMapRequ
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1232,7 +1232,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1258,7 +1258,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1268,8 +1268,8 @@ Other parameters are passed through a pointer to a apiGetServerToSegmentsMapDepr
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | MUST be null | 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **state** | **string** | MUST be null |
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1306,7 +1306,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1332,7 +1332,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1342,8 +1342,8 @@ Other parameters are passed through a pointer to a apiGetServerToSegmentsMapDepr
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | MUST be null | 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **state** | **string** | MUST be null |
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1380,7 +1380,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1403,7 +1403,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1413,7 +1413,7 @@ Other parameters are passed through a pointer to a apiGetTableTiersRequest struc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1450,7 +1450,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1475,7 +1475,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1485,7 +1485,7 @@ Other parameters are passed through a pointer to a apiGetZookeeperMetadataReques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1522,7 +1522,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1545,7 +1545,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1555,7 +1555,7 @@ Other parameters are passed through a pointer to a apiListSegmentLineageRequest 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1592,7 +1592,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1618,7 +1618,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1628,7 +1628,7 @@ Other parameters are passed through a pointer to a apiReloadAllSegmentsRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
  **forceDownload** | **bool** | Whether to force server to download segment | [default to false]
 
 ### Return type
@@ -1666,7 +1666,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1691,7 +1691,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1701,7 +1701,7 @@ Other parameters are passed through a pointer to a apiReloadAllSegmentsDeprecate
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1738,7 +1738,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1763,7 +1763,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1773,7 +1773,7 @@ Other parameters are passed through a pointer to a apiReloadAllSegmentsDeprecate
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1810,7 +1810,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1836,8 +1836,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -1885,7 +1885,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1911,8 +1911,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -1923,7 +1923,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -1960,7 +1960,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1986,8 +1986,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
-**segmentName** | **string** | Name of the segment | 
+**tableName** | **string** | Name of the table |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -1998,7 +1998,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
 
 ### Return type
 
@@ -2035,7 +2035,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2061,8 +2061,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableNameWithType** | **string** | Name of the table with type | 
-**segmentName** | **string** | Name of the segment | 
+**tableNameWithType** | **string** | Name of the table with type |
+**segmentName** | **string** | Name of the segment |
 
 ### Other Parameters
 
@@ -2073,7 +2073,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **targetInstance** | **string** | Name of the target instance to reset | 
+ **targetInstance** | **string** | Name of the target instance to reset |
 
 ### Return type
 
@@ -2110,7 +2110,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2136,7 +2136,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableNameWithType** | **string** | Name of the table with type | 
+**tableNameWithType** | **string** | Name of the table with type |
 
 ### Other Parameters
 
@@ -2146,7 +2146,7 @@ Other parameters are passed through a pointer to a apiResetSegmentsRequest struc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **targetInstance** | **string** | Name of the target instance to reset | 
+ **targetInstance** | **string** | Name of the target instance to reset |
  **errorSegmentsOnly** | **bool** | Whether to reset only segments with error state | [default to false]
 
 ### Return type
@@ -2184,7 +2184,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2209,7 +2209,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2219,8 +2219,8 @@ Other parameters are passed through a pointer to a apiRevertReplaceSegmentsReque
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **segmentLineageEntryId** | **string** | Segment lineage entry id to revert | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **segmentLineageEntryId** | **string** | Segment lineage entry id to revert |
  **forceRevert** | **bool** | Force revert in case the user knows that the lineage entry is interrupted | [default to false]
 
 ### Return type
@@ -2258,7 +2258,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2283,7 +2283,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2293,8 +2293,8 @@ Other parameters are passed through a pointer to a apiStartReplaceSegmentsReques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **body** | [**StartReplaceSegmentsRequest**](StartReplaceSegmentsRequest.md) | Fields belonging to start replace segment request | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **body** | [**StartReplaceSegmentsRequest**](StartReplaceSegmentsRequest.md) | Fields belonging to start replace segment request |
  **forceCleanup** | **bool** | Force cleanup | [default to false]
 
 ### Return type
@@ -2332,7 +2332,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2354,7 +2354,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableNameWithType** | **string** | Table name with type | 
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -2400,7 +2400,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2437,17 +2437,17 @@ Other parameters are passed through a pointer to a apiUploadSegmentAsMultiPartRe
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableName** | **string** | Name of the table | 
+ **tableName** | **string** | Name of the table |
  **tableType** | **string** | Type of the table | [default to &quot;OFFLINE&quot;]
  **enableParallelPushProtection** | **bool** | Whether to enable parallel push protection | [default to false]
  **allowRefresh** | **bool** | Whether to refresh if the segment already exists | [default to true]
- **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  | 
- **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **mediaType** | [**MediaType**](MediaType.md) |  | 
- **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **parent** | [**MultiPart**](MultiPart.md) |  | 
- **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **bodyParts** | [**[]BodyPart**](BodyPart.md) |  | 
+ **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  |
+ **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **mediaType** | [**MediaType**](MediaType.md) |  |
+ **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **parent** | [**MultiPart**](MultiPart.md) |  |
+ **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **bodyParts** | [**[]BodyPart**](BodyPart.md) |  |
 
 ### Return type
 
@@ -2484,7 +2484,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2521,17 +2521,17 @@ Other parameters are passed through a pointer to a apiUploadSegmentAsMultiPartV2
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableName** | **string** | Name of the table | 
+ **tableName** | **string** | Name of the table |
  **tableType** | **string** | Type of the table | [default to &quot;OFFLINE&quot;]
  **enableParallelPushProtection** | **bool** | Whether to enable parallel push protection | [default to false]
  **allowRefresh** | **bool** | Whether to refresh if the segment already exists | [default to true]
- **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  | 
- **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **mediaType** | [**MediaType**](MediaType.md) |  | 
- **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **parent** | [**MultiPart**](MultiPart.md) |  | 
- **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **bodyParts** | [**[]BodyPart**](BodyPart.md) |  | 
+ **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  |
+ **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **mediaType** | [**MediaType**](MediaType.md) |  |
+ **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **parent** | [**MultiPart**](MultiPart.md) |  |
+ **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **bodyParts** | [**[]BodyPart**](BodyPart.md) |  |
 
 ### Return type
 

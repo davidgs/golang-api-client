@@ -21,7 +21,7 @@ go get golang.org/x/net/context
 Put the package under your project folder and add the following in import:
 
 ```golang
-import openapi "github.com/GIT_USER_ID/GIT_REPO_ID"
+import openapi "github.com/davidgs/golang-api-client"
 ```
 
 To use a proxy, set the environment variable `HTTP_PROXY`:
@@ -77,7 +77,7 @@ All URIs are relative to *http://localhost*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AppConfigsApi* | [**GetAppConfigs**](docs/AppConfigsApi.md#getappconfigs) | **Get** /appconfigs | 
+*AppConfigsApi* | [**GetAppConfigs**](docs/AppConfigsApi.md#getappconfigs) | **Get** /appconfigs |
 *AtomicIngestionApi* | [**EndDataIngestRequest**](docs/AtomicIngestionApi.md#enddataingestrequest) | **Post** /segments/{tableName}/endDataIngestRequest | Mark the end of data ingestion to upload multiple segments
 *AtomicIngestionApi* | [**StartDataIngestRequest**](docs/AtomicIngestionApi.md#startdataingestrequest) | **Post** /segments/{tableName}/startDataIngestRequest | Mark the start of data ingestion to upload multiple segments
 *AuthApi* | [**Info**](docs/AuthApi.md#info) | **Get** /auth/info | Retrieve auth workflow info

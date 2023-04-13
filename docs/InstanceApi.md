@@ -32,7 +32,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -61,7 +61,7 @@ Other parameters are passed through a pointer to a apiAddInstanceRequest struct 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **updateBrokerResource** | **bool** | Whether to update broker resource for broker instance | [default to false]
- **body** | [**Instance**](Instance.md) |  | 
+ **body** | [**Instance**](Instance.md) |  |
 
 ### Return type
 
@@ -98,7 +98,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -120,7 +120,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -164,7 +164,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -221,7 +221,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -243,7 +243,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -289,7 +289,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -312,7 +312,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -322,7 +322,7 @@ Other parameters are passed through a pointer to a apiToggleInstanceStateRequest
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -359,7 +359,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -381,7 +381,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -427,7 +427,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -451,7 +451,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -462,7 +462,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
  **updateBrokerResource** | **bool** | Whether to update broker resource for broker instance | [default to false]
- **body** | [**Instance**](Instance.md) |  | 
+ **body** | [**Instance**](Instance.md) |  |
 
 ### Return type
 
@@ -499,7 +499,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -523,7 +523,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Instance name | 
+**instanceName** | **string** | Instance name |
 
 ### Other Parameters
 
@@ -533,7 +533,7 @@ Other parameters are passed through a pointer to a apiUpdateInstanceTagsRequest 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **tags** | **string** | Comma separated tags list | 
+ **tags** | **string** | Comma separated tags list |
  **updateBrokerResource** | **bool** | Whether to update broker resource for broker instance | [default to false]
 
 ### Return type

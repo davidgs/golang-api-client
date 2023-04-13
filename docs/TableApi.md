@@ -70,7 +70,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -100,8 +100,8 @@ Other parameters are passed through a pointer to a apiAddConfigRequest struct vi
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | **string** |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | **string** |  |
 
 ### Return type
 
@@ -138,7 +138,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -168,8 +168,8 @@ Other parameters are passed through a pointer to a apiAddTableRequest struct via
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | **string** |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | **string** |  |
 
 ### Return type
 
@@ -206,7 +206,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -232,7 +232,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -242,8 +242,8 @@ Other parameters are passed through a pointer to a apiAlterTableStateOrListTable
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | enable|disable|drop | 
- **type_** | **string** | realtime|offline | 
+ **state** | **string** | enable|disable|drop |
+ **type_** | **string** | realtime|offline |
 
 ### Return type
 
@@ -278,7 +278,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -304,7 +304,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -314,7 +314,7 @@ Other parameters are passed through a pointer to a apiAssignInstancesRequest str
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name | 
+ **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name |
  **dryRun** | **bool** | Whether to do dry-run | [default to false]
 
 ### Return type
@@ -352,7 +352,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -382,8 +382,8 @@ Other parameters are passed through a pointer to a apiCheckTableConfigRequest st
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | **string** |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | **string** |  |
 
 ### Return type
 
@@ -420,7 +420,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -444,7 +444,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | TableConfigs name i.e. raw table name | 
+**tableName** | **string** | TableConfigs name i.e. raw table name |
 
 ### Other Parameters
 
@@ -490,7 +490,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -516,7 +516,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table to delete | 
+**tableName** | **string** | Name of the table to delete |
 
 ### Other Parameters
 
@@ -526,8 +526,8 @@ Other parameters are passed through a pointer to a apiDeleteTableRequest struct 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | realtime|offline | 
- **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention | 
+ **type_** | **string** | realtime|offline |
+ **retention** | **string** | Retention period for the table segments (e.g. 12h, 3d); If not set, the retention period will default to the first config that&#39;s not null: the cluster setting, then &#39;7d&#39;. Using 0d or -1d will instantly delete segments without retention |
 
 ### Return type
 
@@ -564,7 +564,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -588,7 +588,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the hybrid table (without type suffix) | 
+**tableName** | **string** | Name of the hybrid table (without type suffix) |
 
 ### Other Parameters
 
@@ -634,7 +634,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -658,7 +658,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -704,7 +704,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -728,7 +728,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Raw table name | 
+**tableName** | **string** | Raw table name |
 
 ### Other Parameters
 
@@ -774,7 +774,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -796,7 +796,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Realtime table name with or without type | 
+**tableName** | **string** | Realtime table name with or without type |
 
 ### Other Parameters
 
@@ -842,7 +842,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -868,7 +868,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -878,8 +878,8 @@ Other parameters are passed through a pointer to a apiGetControllerJobsRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **jobTypes** | **string** | Comma separated list of job types | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **jobTypes** | **string** | Comma separated list of job types |
 
 ### Return type
 
@@ -916,7 +916,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -941,7 +941,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -951,7 +951,7 @@ Other parameters are passed through a pointer to a apiGetExternalViewRequest str
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **tableType** | **string** | realtime|offline | 
+ **tableType** | **string** | realtime|offline |
 
 ### Return type
 
@@ -988,7 +988,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1012,7 +1012,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**jobId** | **string** | Force commit job id | 
+**jobId** | **string** | Force commit job id |
 
 ### Other Parameters
 
@@ -1058,7 +1058,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1083,7 +1083,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1093,7 +1093,7 @@ Other parameters are passed through a pointer to a apiGetIdealStateRequest struc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **tableType** | **string** | realtime|offline | 
+ **tableType** | **string** | realtime|offline |
 
 ### Return type
 
@@ -1128,7 +1128,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1153,7 +1153,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1163,7 +1163,7 @@ Other parameters are passed through a pointer to a apiGetInstancePartitionsReque
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name | 
+ **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name |
 
 ### Return type
 
@@ -1200,7 +1200,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1259,7 +1259,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1281,7 +1281,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name (with or without type) | 
+**tableName** | **string** | Table name (with or without type) |
 
 ### Other Parameters
 
@@ -1327,7 +1327,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1349,7 +1349,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1395,7 +1395,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1421,7 +1421,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1431,8 +1431,8 @@ Other parameters are passed through a pointer to a apiGetTableAggregateMetadataR
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **columns** | **[]string** | Columns name | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **columns** | **[]string** | Columns name |
 
 ### Return type
 
@@ -1469,7 +1469,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1492,7 +1492,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name without type | 
+**tableName** | **string** | Table name without type |
 
 ### Other Parameters
 
@@ -1502,7 +1502,7 @@ Other parameters are passed through a pointer to a apiGetTableInstancesRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | Instance type | 
+ **type_** | **string** | Instance type |
 
 ### Return type
 
@@ -1539,7 +1539,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1562,7 +1562,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name without type | 
+**tableName** | **string** | Table name without type |
 
 ### Other Parameters
 
@@ -1609,7 +1609,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1634,7 +1634,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table to get its state | 
+**tableName** | **string** | Name of the table to get its state |
 
 ### Other Parameters
 
@@ -1644,7 +1644,7 @@ Other parameters are passed through a pointer to a apiGetTableStateRequest struc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | realtime|offline | 
+ **type_** | **string** | realtime|offline |
 
 ### Return type
 
@@ -1681,7 +1681,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1706,7 +1706,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1716,7 +1716,7 @@ Other parameters are passed through a pointer to a apiGetTableStatsRequest struc
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | realtime|offline | 
+ **type_** | **string** | realtime|offline |
 
 ### Return type
 
@@ -1753,7 +1753,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1778,7 +1778,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -1788,7 +1788,7 @@ Other parameters are passed through a pointer to a apiGetTableStatusRequest stru
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | realtime|offline | 
+ **type_** | **string** | realtime|offline |
 
 ### Return type
 
@@ -1825,7 +1825,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1860,15 +1860,15 @@ Other parameters are passed through a pointer to a apiIngestFromFileRequest stru
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableNameWithType** | **string** | Name of the table to upload the file to | 
- **batchConfigMapStr** | **string** | Batch config Map as json string. Must pass inputFormat, and optionally record reader properties. e.g. {\&quot;inputFormat\&quot;:\&quot;json\&quot;} | 
- **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  | 
- **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **mediaType** | [**MediaType**](MediaType.md) |  | 
- **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **parent** | [**MultiPart**](MultiPart.md) |  | 
- **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  | 
- **bodyParts** | [**[]BodyPart**](BodyPart.md) |  | 
+ **tableNameWithType** | **string** | Name of the table to upload the file to |
+ **batchConfigMapStr** | **string** | Batch config Map as json string. Must pass inputFormat, and optionally record reader properties. e.g. {\&quot;inputFormat\&quot;:\&quot;json\&quot;} |
+ **contentDisposition** | [**ContentDisposition**](ContentDisposition.md) |  |
+ **entity** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **mediaType** | [**MediaType**](MediaType.md) |  |
+ **messageBodyWorkers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **parent** | [**MultiPart**](MultiPart.md) |  |
+ **providers** | [**map[string]interface{}**](map[string]interface{}.md) |  |
+ **bodyParts** | [**[]BodyPart**](BodyPart.md) |  |
 
 ### Return type
 
@@ -1905,7 +1905,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1934,9 +1934,9 @@ Other parameters are passed through a pointer to a apiIngestFromURIRequest struc
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableNameWithType** | **string** | Name of the table to upload the file to | 
- **batchConfigMapStr** | **string** | Batch config Map as json string. Must pass inputFormat, and optionally input FS properties. e.g. {\&quot;inputFormat\&quot;:\&quot;json\&quot;} | 
- **sourceURIStr** | **string** | URI of file to upload | 
+ **tableNameWithType** | **string** | Name of the table to upload the file to |
+ **batchConfigMapStr** | **string** | Batch config Map as json string. Must pass inputFormat, and optionally input FS properties. e.g. {\&quot;inputFormat\&quot;:\&quot;json\&quot;} |
+ **sourceURIStr** | **string** | URI of file to upload |
 
 ### Return type
 
@@ -1973,7 +1973,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2034,7 +2034,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2066,9 +2066,9 @@ Other parameters are passed through a pointer to a apiListTablesRequest struct v
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **type_** | **string** | realtime|offline | 
- **taskType** | **string** | Task type | 
- **sortType** | **string** | name|creationTime|lastModifiedTime | 
+ **type_** | **string** | realtime|offline |
+ **taskType** | **string** | Task type |
+ **sortType** | **string** | name|creationTime|lastModifiedTime |
  **sortAsc** | **bool** | true|false | [default to true]
 
 ### Return type
@@ -2106,7 +2106,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2128,7 +2128,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2174,7 +2174,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2197,7 +2197,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name | 
+**tableName** | **string** | Table name |
 
 ### Other Parameters
 
@@ -2207,7 +2207,7 @@ Other parameters are passed through a pointer to a apiPutRequest struct via the 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -2244,7 +2244,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2278,7 +2278,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table to rebalance | 
+**tableName** | **string** | Name of the table to rebalance |
 
 ### Other Parameters
 
@@ -2288,7 +2288,7 @@ Other parameters are passed through a pointer to a apiRebalanceRequest struct vi
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
+ **type_** | **string** | OFFLINE|REALTIME |
  **dryRun** | **bool** | Whether to rebalance table in dry-run mode | [default to false]
  **reassignInstances** | **bool** | Whether to reassign instances before reassigning segments | [default to false]
  **includeConsuming** | **bool** | Whether to reassign CONSUMING segments for real-time table | [default to false]
@@ -2334,7 +2334,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2358,7 +2358,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**jobId** | **string** | Rebalance Job Id | 
+**jobId** | **string** | Rebalance Job Id |
 
 ### Other Parameters
 
@@ -2404,7 +2404,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2426,7 +2426,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name (with type) | 
+**tableName** | **string** | Table name (with type) |
 
 ### Other Parameters
 
@@ -2472,7 +2472,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2501,7 +2501,7 @@ Other parameters are passed through a pointer to a apiRecommendConfigRequest str
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -2536,7 +2536,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2561,7 +2561,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2571,7 +2571,7 @@ Other parameters are passed through a pointer to a apiRemoveInstancePartitionsRe
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name | 
+ **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name |
 
 ### Return type
 
@@ -2606,7 +2606,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2633,7 +2633,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2643,9 +2643,9 @@ Other parameters are passed through a pointer to a apiReplaceInstanceRequest str
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **oldInstanceId** | **string** | Old instance to be replaced | 
- **newInstanceId** | **string** | New instance to replace with | 
- **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name | 
+ **oldInstanceId** | **string** | Old instance to be replaced |
+ **newInstanceId** | **string** | New instance to replace with |
+ **type_** | **string** | OFFLINE|CONSUMING|COMPLETED|tier name |
 
 ### Return type
 
@@ -2682,7 +2682,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2705,7 +2705,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2715,7 +2715,7 @@ Other parameters are passed through a pointer to a apiResumeConsumptionRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **consumeFrom** | **string** | smallest | largest | 
+ **consumeFrom** | **string** | smallest | largest |
 
 ### Return type
 
@@ -2750,7 +2750,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2775,7 +2775,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -2785,7 +2785,7 @@ Other parameters are passed through a pointer to a apiSetInstancePartitionsReque
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -2822,7 +2822,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2846,7 +2846,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the hybrid table (without type suffix) | 
+**tableName** | **string** | Name of the hybrid table (without type suffix) |
 
 ### Other Parameters
 
@@ -2892,7 +2892,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2919,7 +2919,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | TableConfigs name i.e. raw table name | 
+**tableName** | **string** | TableConfigs name i.e. raw table name |
 
 ### Other Parameters
 
@@ -2929,9 +2929,9 @@ Other parameters are passed through a pointer to a apiUpdateConfigRequest struct
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
  **reload** | **bool** | Reload the table if the new schema is backward compatible | [default to false]
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -2966,7 +2966,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2989,7 +2989,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name (without type) | 
+**tableName** | **string** | Table name (without type) |
 
 ### Other Parameters
 
@@ -2999,7 +2999,7 @@ Other parameters are passed through a pointer to a apiUpdateIndexingConfigReques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -3036,7 +3036,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -3062,7 +3062,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table to update | 
+**tableName** | **string** | Name of the table to update |
 
 ### Other Parameters
 
@@ -3072,8 +3072,8 @@ Other parameters are passed through a pointer to a apiUpdateTableConfigRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | **string** |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | **string** |  |
 
 ### Return type
 
@@ -3110,11 +3110,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    tableName := "tableName_example" // string | 
+    tableName := "tableName_example" // string |
     body := "body_example" // string |  (optional)
 
     configuration := openapiclient.NewConfiguration()
@@ -3133,7 +3133,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** |  | 
+**tableName** | **string** |  |
 
 ### Other Parameters
 
@@ -3143,7 +3143,7 @@ Other parameters are passed through a pointer to a apiUpdateTableMetadataRequest
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -3180,7 +3180,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -3210,8 +3210,8 @@ Other parameters are passed through a pointer to a apiValidateConfigRequest stru
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | **string** |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | **string** |  |
 
 ### Return type
 
@@ -3248,7 +3248,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -3278,8 +3278,8 @@ Other parameters are passed through a pointer to a apiValidateTableAndSchemaRequ
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) | 
- **body** | [**TableAndSchemaConfig**](TableAndSchemaConfig.md) |  | 
+ **validationTypesToSkip** | **string** | comma separated list of validation type(s) to skip. supported types: (ALL|TASK|UPSERT) |
+ **body** | [**TableAndSchemaConfig**](TableAndSchemaConfig.md) |  |
 
 ### Return type
 

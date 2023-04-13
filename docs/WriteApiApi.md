@@ -27,11 +27,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    table := "table_example" // string | 
+    table := "table_example" // string |
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
@@ -49,7 +49,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**table** | **string** |  | 
+**table** | **string** |  |
 
 ### Other Parameters
 
@@ -95,11 +95,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    table := "table_example" // string | 
+    table := "table_example" // string |
     body := *openapiclient.NewWritePayload() // WritePayload |  (optional)
 
     configuration := openapiclient.NewConfiguration()
@@ -118,7 +118,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**table** | **string** |  | 
+**table** | **string** |  |
 
 ### Other Parameters
 
@@ -128,7 +128,7 @@ Other parameters are passed through a pointer to a apiInsertRequest struct via t
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | [**WritePayload**](WritePayload.md) |  | 
+ **body** | [**WritePayload**](WritePayload.md) |  |
 
 ### Return type
 
@@ -165,11 +165,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    table := "table_example" // string | 
+    table := "table_example" // string |
     body := *openapiclient.NewTableWriteConfig() // TableWriteConfig |  (optional)
 
     configuration := openapiclient.NewConfiguration()
@@ -188,7 +188,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**table** | **string** |  | 
+**table** | **string** |  |
 
 ### Other Parameters
 
@@ -198,7 +198,7 @@ Other parameters are passed through a pointer to a apiUpdateWriteConfigRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **body** | [**TableWriteConfig**](TableWriteConfig.md) |  | 
+ **body** | [**TableWriteConfig**](TableWriteConfig.md) |  |
 
 ### Return type
 

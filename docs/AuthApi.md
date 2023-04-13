@@ -24,7 +24,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -81,7 +81,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -110,9 +110,9 @@ Other parameters are passed through a pointer to a apiVerifyRequest struct via t
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableName** | **string** | Table name without type | 
+ **tableName** | **string** | Table name without type |
  **accessType** | **string** | API access type | [default to &quot;READ&quot;]
- **endpointUrl** | **string** | Endpoint URL | 
+ **endpointUrl** | **string** | Endpoint URL |
 
 ### Return type
 

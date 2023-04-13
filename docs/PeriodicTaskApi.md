@@ -24,7 +24,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -83,7 +83,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -112,9 +112,9 @@ Other parameters are passed through a pointer to a apiRunPeriodicTaskRequest str
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **taskname** | **string** | Periodic task name | 
- **tableName** | **string** | Name of the table | 
- **type_** | **string** | OFFLINE | REALTIME | 
+ **taskname** | **string** | Periodic task name |
+ **tableName** | **string** | Name of the table |
+ **type_** | **string** | OFFLINE | REALTIME |
 
 ### Return type
 

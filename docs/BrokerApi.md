@@ -35,7 +35,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -61,7 +61,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -71,8 +71,8 @@ Other parameters are passed through a pointer to a apiGetBrokersForTableRequest 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **state** | **string** | ONLINE|OFFLINE | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -109,7 +109,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -135,7 +135,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Name of the table | 
+**tableName** | **string** | Name of the table |
 
 ### Other Parameters
 
@@ -145,8 +145,8 @@ Other parameters are passed through a pointer to a apiGetBrokersForTableV2Reques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | OFFLINE|REALTIME | 
- **state** | **string** | ONLINE|OFFLINE | 
+ **type_** | **string** | OFFLINE|REALTIME |
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -183,7 +183,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -208,7 +208,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Name of the tenant | 
+**tenantName** | **string** | Name of the tenant |
 
 ### Other Parameters
 
@@ -218,7 +218,7 @@ Other parameters are passed through a pointer to a apiGetBrokersForTenantRequest
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -255,7 +255,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -280,7 +280,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Name of the tenant | 
+**tenantName** | **string** | Name of the tenant |
 
 ### Other Parameters
 
@@ -290,7 +290,7 @@ Other parameters are passed through a pointer to a apiGetBrokersForTenantV2Reque
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -327,7 +327,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -356,7 +356,7 @@ Other parameters are passed through a pointer to a apiGetTablesToBrokersMappingR
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -393,7 +393,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -422,7 +422,7 @@ Other parameters are passed through a pointer to a apiGetTablesToBrokersMappingV
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -459,7 +459,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -488,7 +488,7 @@ Other parameters are passed through a pointer to a apiGetTenantsToBrokersMapping
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -525,7 +525,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -554,7 +554,7 @@ Other parameters are passed through a pointer to a apiGetTenantsToBrokersMapping
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -591,7 +591,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -620,7 +620,7 @@ Other parameters are passed through a pointer to a apiListBrokersMappingRequest 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -657,7 +657,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -686,7 +686,7 @@ Other parameters are passed through a pointer to a apiListBrokersMappingV2Reques
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **state** | **string** | ONLINE|OFFLINE | 
+ **state** | **string** | ONLINE|OFFLINE |
 
 ### Return type
 
@@ -723,7 +723,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -746,7 +746,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**instanceName** | **string** | Broker instance name | 
+**instanceName** | **string** | Broker instance name |
 
 ### Other Parameters
 
@@ -756,7 +756,7 @@ Other parameters are passed through a pointer to a apiToggleQueryRateLimitingReq
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | ENABLE|DISABLE | 
+ **state** | **string** | ENABLE|DISABLE |
 
 ### Return type
 

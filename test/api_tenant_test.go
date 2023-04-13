@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/davidgs/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TenantApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService ChangeTenantState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -38,7 +39,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService CreateTenant", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TenantApi.CreateTenant(context.Background()).Execute()
 
@@ -49,7 +50,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService DeleteTenant", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -62,7 +63,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService GetAllTenants", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TenantApi.GetAllTenants(context.Background()).Execute()
 
@@ -73,7 +74,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService GetTablesOnTenant", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -86,7 +87,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService GetTenantMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -100,7 +101,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService ListInstanceOrToggleTenantState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tenantName string
 
@@ -113,7 +114,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService RebuildBrokerResource", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -126,7 +127,7 @@ func Test_openapi_TenantApiService(t *testing.T) {
 
 	t.Run("Test TenantApiService UpdateTenant", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TenantApi.UpdateTenant(context.Background()).Execute()
 

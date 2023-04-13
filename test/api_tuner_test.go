@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TunerApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_TunerApiService(t *testing.T) {
 
 	t.Run("Test TunerApiService TuneTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -38,7 +39,7 @@ func Test_openapi_TunerApiService(t *testing.T) {
 
 	t.Run("Test TunerApiService TuneTable1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 

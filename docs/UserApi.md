@@ -29,7 +29,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -58,7 +58,7 @@ Other parameters are passed through a pointer to a apiAddUserRequest struct via 
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | **string** |  | 
+ **body** | **string** |  |
 
 ### Return type
 
@@ -95,11 +95,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    username := "username_example" // string | 
+    username := "username_example" // string |
     component := "component_example" // string |  (optional)
 
     configuration := openapiclient.NewConfiguration()
@@ -120,7 +120,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**username** | **string** |  | 
+**username** | **string** |  |
 
 ### Other Parameters
 
@@ -130,7 +130,7 @@ Other parameters are passed through a pointer to a apiDeleteUserRequest struct v
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **component** | **string** |  | 
+ **component** | **string** |  |
 
 ### Return type
 
@@ -167,11 +167,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    username := "username_example" // string | 
+    username := "username_example" // string |
     component := "component_example" // string |  (optional)
 
     configuration := openapiclient.NewConfiguration()
@@ -192,7 +192,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**username** | **string** |  | 
+**username** | **string** |  |
 
 ### Other Parameters
 
@@ -202,7 +202,7 @@ Other parameters are passed through a pointer to a apiGetUserRequest struct via 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **component** | **string** |  | 
+ **component** | **string** |  |
 
 ### Return type
 
@@ -239,7 +239,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -300,11 +300,11 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
-    username := "username_example" // string | 
+    username := "username_example" // string |
     component := "component_example" // string |  (optional)
     passwordChanged := true // bool |  (optional)
     body := "body_example" // string |  (optional)
@@ -327,7 +327,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**username** | **string** |  | 
+**username** | **string** |  |
 
 ### Other Parameters
 
@@ -337,9 +337,9 @@ Other parameters are passed through a pointer to a apiUpdateUserConfigRequest st
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **component** | **string** |  | 
- **passwordChanged** | **bool** |  | 
- **body** | **string** |  | 
+ **component** | **string** |  |
+ **passwordChanged** | **bool** |  |
+ **body** | **string** |  |
 
 ### Return type
 

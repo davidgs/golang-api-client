@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/davidgs/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TaskApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService CleanUpTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -38,7 +39,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService CleanUpTasksDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -52,7 +53,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService DeleteTask", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -66,7 +67,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService DeleteTaskMetadataByTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 		var tableNameWithType string
@@ -81,7 +82,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService DeleteTaskQueue", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -95,7 +96,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService DeleteTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -109,7 +110,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ExecuteAdhocTask", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TaskApi.ExecuteAdhocTask(context.Background()).Execute()
 
@@ -120,7 +121,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetCronSchedulerInformation", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.GetCronSchedulerInformation(context.Background()).Execute()
 
@@ -132,7 +133,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetCronSchedulerJobDetails", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.GetCronSchedulerJobDetails(context.Background()).Execute()
 
@@ -144,7 +145,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetCronSchedulerJobKeys", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.GetCronSchedulerJobKeys(context.Background()).Execute()
 
@@ -156,7 +157,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetSubtaskConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -170,7 +171,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetSubtaskOnWorkerProgress", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TaskApi.GetSubtaskOnWorkerProgress(context.Background()).Execute()
 
@@ -181,7 +182,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetSubtaskProgress", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -195,7 +196,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetSubtaskStates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -209,7 +210,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -223,7 +224,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -237,7 +238,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskConfigsDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -251,7 +252,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskCounts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -265,7 +266,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskDebugInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -279,7 +280,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskGenerationDebugInto", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 		var tableNameWithType string
@@ -294,7 +295,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskMetadataByTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 		var tableNameWithType string
@@ -309,7 +310,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskQueueState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -323,7 +324,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskQueueStateDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -337,7 +338,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskQueues", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.GetTaskQueues(context.Background()).Execute()
 
@@ -349,7 +350,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -363,7 +364,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskStateDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskName string
 
@@ -377,7 +378,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskStates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -391,7 +392,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskStatesByTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 		var tableNameWithType string
@@ -406,7 +407,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTaskStatesDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -420,7 +421,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -434,7 +435,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTasksDebugInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 		var tableNameWithType string
@@ -449,7 +450,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTasksDebugInfo1", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -463,7 +464,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService GetTasksDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -477,7 +478,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ListTaskTypes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.ListTaskTypes(context.Background()).Execute()
 
@@ -489,7 +490,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ResumeTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -503,7 +504,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ScheduleTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.ScheduleTasks(context.Background()).Execute()
 
@@ -515,7 +516,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ScheduleTasksDeprecated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TaskApi.ScheduleTasksDeprecated(context.Background()).Execute()
 
@@ -527,7 +528,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService StopTasks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 
@@ -541,7 +542,7 @@ func Test_openapi_TaskApiService(t *testing.T) {
 
 	t.Run("Test TaskApiService ToggleTaskQueueState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var taskType string
 

@@ -61,7 +61,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -85,7 +85,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -129,7 +129,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -153,7 +153,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -197,7 +197,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -222,7 +222,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -267,7 +267,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -292,8 +292,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
-**tableNameWithType** | **string** | Table name with type | 
+**taskType** | **string** | Task type |
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -338,7 +338,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -363,7 +363,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -408,7 +408,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -433,7 +433,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -478,7 +478,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -505,7 +505,7 @@ Other parameters are passed through a pointer to a apiExecuteAdhocTaskRequest st
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**AdhocTaskConfig**](AdhocTaskConfig.md) |  | 
+ **body** | [**AdhocTaskConfig**](AdhocTaskConfig.md) |  |
 
 ### Return type
 
@@ -540,7 +540,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -599,7 +599,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -629,8 +629,8 @@ Other parameters are passed through a pointer to a apiGetCronSchedulerJobDetails
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tableName** | **string** | Table name (with type suffix) | 
- **taskType** | **string** | Task type | 
+ **tableName** | **string** | Table name (with type suffix) |
+ **taskType** | **string** | Task type |
 
 ### Return type
 
@@ -665,7 +665,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -724,7 +724,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -749,7 +749,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -759,7 +759,7 @@ Other parameters are passed through a pointer to a apiGetSubtaskConfigsRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **subtaskNames** | **string** | Sub task names separated by comma | 
+ **subtaskNames** | **string** | Sub task names separated by comma |
 
 ### Return type
 
@@ -794,7 +794,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -822,8 +822,8 @@ Other parameters are passed through a pointer to a apiGetSubtaskOnWorkerProgress
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **subTaskState** | **string** | Subtask state (UNKNOWN,IN_PROGRESS,SUCCEEDED,CANCELLED,ERROR) | 
- **minionWorkerIds** | **string** | Minion worker IDs separated by comma | 
+ **subTaskState** | **string** | Subtask state (UNKNOWN,IN_PROGRESS,SUCCEEDED,CANCELLED,ERROR) |
+ **minionWorkerIds** | **string** | Minion worker IDs separated by comma |
 
 ### Return type
 
@@ -858,7 +858,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -883,7 +883,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -893,7 +893,7 @@ Other parameters are passed through a pointer to a apiGetSubtaskProgressRequest 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **subtaskNames** | **string** | Sub task names separated by comma | 
+ **subtaskNames** | **string** | Sub task names separated by comma |
 
 ### Return type
 
@@ -928,7 +928,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -952,7 +952,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -996,7 +996,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1020,7 +1020,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1064,7 +1064,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1088,7 +1088,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1132,7 +1132,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1156,7 +1156,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1200,7 +1200,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1224,7 +1224,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -1268,7 +1268,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1293,7 +1293,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1338,7 +1338,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1364,8 +1364,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
-**tableNameWithType** | **string** | Table name with type | 
+**taskType** | **string** | Task type |
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -1411,7 +1411,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1436,8 +1436,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
-**tableNameWithType** | **string** | Table name with type | 
+**taskType** | **string** | Task type |
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -1482,7 +1482,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1506,7 +1506,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -1550,7 +1550,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1574,7 +1574,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -1618,7 +1618,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1677,7 +1677,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1701,7 +1701,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1745,7 +1745,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1769,7 +1769,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskName** | **string** | Task name | 
+**taskName** | **string** | Task name |
 
 ### Other Parameters
 
@@ -1813,7 +1813,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1837,7 +1837,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -1881,7 +1881,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1906,8 +1906,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
-**tableNameWithType** | **string** | Table name with type | 
+**taskType** | **string** | Task type |
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -1952,7 +1952,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -1976,7 +1976,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2020,7 +2020,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2044,7 +2044,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2088,7 +2088,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2114,8 +2114,8 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
-**tableNameWithType** | **string** | Table name with type | 
+**taskType** | **string** | Task type |
+**tableNameWithType** | **string** | Table name with type |
 
 ### Other Parameters
 
@@ -2161,7 +2161,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2186,7 +2186,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2231,7 +2231,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2255,7 +2255,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2299,7 +2299,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2358,7 +2358,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2382,7 +2382,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2426,7 +2426,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2456,8 +2456,8 @@ Other parameters are passed through a pointer to a apiScheduleTasksRequest struc
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **taskType** | **string** | Task type | 
- **tableName** | **string** | Table name (with type suffix) | 
+ **taskType** | **string** | Task type |
+ **tableName** | **string** | Table name (with type suffix) |
 
 ### Return type
 
@@ -2492,7 +2492,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2551,7 +2551,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2575,7 +2575,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2619,7 +2619,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -2644,7 +2644,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**taskType** | **string** | Task type | 
+**taskType** | **string** | Task type |
 
 ### Other Parameters
 
@@ -2654,7 +2654,7 @@ Other parameters are passed through a pointer to a apiToggleTaskQueueStateReques
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | state | 
+ **state** | **string** | state |
 
 ### Return type
 

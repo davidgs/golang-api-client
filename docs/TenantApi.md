@@ -31,7 +31,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -57,7 +57,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Tenant name | 
+**tenantName** | **string** | Tenant name |
 
 ### Other Parameters
 
@@ -67,8 +67,8 @@ Other parameters are passed through a pointer to a apiChangeTenantStateRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **state** | **string** | state | 
- **type_** | **string** | tenant type | 
+ **state** | **string** | state |
+ **type_** | **string** | tenant type |
 
 ### Return type
 
@@ -103,7 +103,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -130,7 +130,7 @@ Other parameters are passed through a pointer to a apiCreateTenantRequest struct
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Tenant**](Tenant.md) |  | 
+ **body** | [**Tenant**](Tenant.md) |  |
 
 ### Return type
 
@@ -165,7 +165,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -188,7 +188,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Tenant name | 
+**tenantName** | **string** | Tenant name |
 
 ### Other Parameters
 
@@ -198,7 +198,7 @@ Other parameters are passed through a pointer to a apiDeleteTenantRequest struct
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | Tenant type | 
+ **type_** | **string** | Tenant type |
 
 ### Return type
 
@@ -233,7 +233,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -260,7 +260,7 @@ Other parameters are passed through a pointer to a apiGetAllTenantsRequest struc
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **type_** | **string** | Tenant type | 
+ **type_** | **string** | Tenant type |
 
 ### Return type
 
@@ -295,7 +295,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -317,7 +317,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Tenant name | 
+**tenantName** | **string** | Tenant name |
 
 ### Other Parameters
 
@@ -361,7 +361,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -386,7 +386,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Tenant name | 
+**tenantName** | **string** | Tenant name |
 
 ### Other Parameters
 
@@ -396,7 +396,7 @@ Other parameters are passed through a pointer to a apiGetTenantMetadataRequest s
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | tenant type | 
+ **type_** | **string** | tenant type |
 
 ### Return type
 
@@ -431,7 +431,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -456,7 +456,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tenantName** | **string** | Tenant name | 
+**tenantName** | **string** | Tenant name |
 
 ### Other Parameters
 
@@ -466,9 +466,9 @@ Other parameters are passed through a pointer to a apiListInstanceOrToggleTenant
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
- **type_** | **string** | Tenant type (server|broker) | 
- **tableType** | **string** | Table type (offline|realtime) | 
- **state** | **string** | state | 
+ **type_** | **string** | Tenant type (server|broker) |
+ **tableType** | **string** | Table type (offline|realtime) |
+ **state** | **string** | state |
 
 ### Return type
 
@@ -505,7 +505,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -527,7 +527,7 @@ func main() {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 **ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
-**tableName** | **string** | Table name (with type) | 
+**tableName** | **string** | Table name (with type) |
 
 ### Other Parameters
 
@@ -571,7 +571,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+    openapiclient "github.com/davidgs/golang-api-client"
 )
 
 func main() {
@@ -598,7 +598,7 @@ Other parameters are passed through a pointer to a apiUpdateTenantRequest struct
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Tenant**](Tenant.md) |  | 
+ **body** | [**Tenant**](Tenant.md) |  |
 
 ### Return type
 

@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/GIT_USER_ID/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AppConfigsApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_AppConfigsApiService(t *testing.T) {
 
 	t.Run("Test AppConfigsApiService GetAppConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AppConfigsApi.GetAppConfigs(context.Background()).Execute()
 

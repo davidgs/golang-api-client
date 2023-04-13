@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/davidgs/golang-api-client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TableApiService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService AddConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.AddConfig(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService AddTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.AddTable(context.Background()).Execute()
 
@@ -48,7 +49,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService AlterTableStateOrListTableConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -62,7 +63,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService AssignInstances", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -76,7 +77,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService CheckTableConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.CheckTableConfig(context.Background()).Execute()
 
@@ -88,7 +89,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService DeleteConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -102,7 +103,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService DeleteTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -116,7 +117,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService DeleteTimeBoundary", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -130,7 +131,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ForceCommit", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -144,7 +145,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -158,7 +159,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetConsumingSegmentsInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -171,7 +172,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetControllerJobs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -185,7 +186,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetExternalView", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -199,7 +200,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetForceCommitJobStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId string
 
@@ -213,7 +214,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetIdealState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -227,7 +228,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetInstancePartitions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -241,7 +242,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetLiveBrokers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TableApi.GetLiveBrokers(context.Background()).Execute()
 
@@ -252,7 +253,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetLiveBrokersForTable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -265,7 +266,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetPauseStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -278,7 +279,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableAggregateMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -292,7 +293,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableInstances", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -305,7 +306,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableSize", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -318,7 +319,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -332,7 +333,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -346,7 +347,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService GetTableStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -360,7 +361,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService IngestFromFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TableApi.IngestFromFile(context.Background()).Execute()
 
@@ -371,7 +372,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService IngestFromURI", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.TableApi.IngestFromURI(context.Background()).Execute()
 
@@ -382,7 +383,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ListConfigs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.ListConfigs(context.Background()).Execute()
 
@@ -394,7 +395,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ListTables", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.ListTables(context.Background()).Execute()
 
@@ -406,7 +407,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService PauseConsumption", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -419,7 +420,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService Put", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -432,7 +433,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService Rebalance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -446,7 +447,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService RebalanceStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId string
 
@@ -460,7 +461,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService RebuildBrokerResource", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -473,7 +474,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService RecommendConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.RecommendConfig(context.Background()).Execute()
 
@@ -485,7 +486,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService RemoveInstancePartitions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -499,7 +500,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ReplaceInstance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -513,7 +514,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ResumeConsumption", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -526,7 +527,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService SetInstancePartitions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -540,7 +541,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService SetTimeBoundary", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -554,7 +555,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService UpdateConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -568,7 +569,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService UpdateIndexingConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -581,7 +582,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService UpdateTableConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -595,7 +596,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService UpdateTableMetadata", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var tableName string
 
@@ -608,7 +609,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ValidateConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.ValidateConfig(context.Background()).Execute()
 
@@ -620,7 +621,7 @@ func Test_openapi_TableApiService(t *testing.T) {
 
 	t.Run("Test TableApiService ValidateTableAndSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TableApi.ValidateTableAndSchema(context.Background()).Execute()
 
